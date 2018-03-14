@@ -1,0 +1,13 @@
+@for $i from 2 through 12 {
+    .grid__col--#{$i}.theme__colors {
+    padding: 1.5em;
+    margin: 0.3em;
+    border-radius: 10px;
+    }
+    .grid__col--#{$i} {
+      flex-grow: $i;
+      @include mq(desktop){
+      max-width: (($i / 12) * 100%)
+      }
+    }
+}

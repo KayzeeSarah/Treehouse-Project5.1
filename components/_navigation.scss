@@ -1,0 +1,25 @@
+//nav
+
+.nav {
+  padding: 0;
+  @include flex($dir:column);
+  @include mq(desktop){
+    flex-direction: row;
+  }
+}
+.nav__item {
+  list-style-type: none;
+  flex: 1;
+}
+
+.nav__item *{
+  @extend %mp;
+  @extend %corner;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: $font-primary;
+    &:hover {
+      background-color: #7EB27C;
+    }
+}

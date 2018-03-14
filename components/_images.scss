@@ -1,0 +1,20 @@
+//img
+
+
+.img {
+  @include m(logo) {
+    @include flex;
+    @extend %img;
+    @extend %circle;
+  }
+  @include m(avatar) {
+    width:200px;
+    @extend %img;
+    @extend %circle;
+  }
+  @include m(frame) {
+    padding: 15px;
+    width: 100%;
+    @extend %img;
+  }
+}

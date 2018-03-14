@@ -1,0 +1,19 @@
+//typography
+
+.container {
+  margin: 10%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.headline--primary {
+  margin-left: 1.5em;
+}
+
+.blockquote {
+  border-left: 2px solid $color-secondary;
+  padding: 0.8em;
+  font-size:1.5em;
+}

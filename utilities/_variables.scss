@@ -1,0 +1,49 @@
+//========================================================
+//Variable Styles
+//========================================================
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+$font-primary: 'Mina', sans-serif;
+
+//descriptive colors
+$pink: #FFB2C9;
+$yellow: #FFEAC9;
+$green: #C4E8BE;
+$purple: #DAC4E8;
+$brown: #706462;
+$grey: #92A6A6;
+$blue: #B6E7FF;
+
+//functional colors
+$color-primary: $purple;
+$color-secondary: $grey;
+
+//breakpoints
+$brkpoint-sm: 1px;
+$brkpoint-md: 769px;
+$brkpoint-lg: 1400px;
+
+//========================================================
+//Map Styles
+//========================================================
+
+//grid-colors
+$grid-colors: (
+  col--3: $pink,
+  col--4: $yellow,
+  col--5: $green,
+  col--6: $purple,
+  col--7: $brown,
+  col--8: $grey,
+  col--12: $blue,
+);
+
+$btn-colors: (
+  default: $pink,
+  success: $yellow,
+  error: $green,
+  warning: $purple,
+  info: $brown,
+);

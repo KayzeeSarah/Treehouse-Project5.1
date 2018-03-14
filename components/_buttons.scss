@@ -1,0 +1,12 @@
+//Buttons
+
+@include theme-colors($btn-colors);
+
+[class^="btn--"] {
+  @extend %mp;
+  @extend %corner;
+  max-width: 100%;
+  @include mq(desktop){
+  flex:1;
+  }
+}
